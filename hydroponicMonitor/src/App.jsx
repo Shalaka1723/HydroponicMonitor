@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-      <div className="flex flex-col bg-lime-100 m-5 place-items-center h-screen rounded-lg">
+      <div className="flex flex-col bg-lime-100 m-[1%] place-items-center h-screen rounded-lg">
         <div className=" bg-sky-900 top-1/2 shadow-lg fixed rounded-full w-32 h-32 px-5 text-center text-white z-10 opacity-90">
           <h1 className=" mt-5 text-wrap text-base">MY HYDROPONIC STATS</h1>
         </div>
