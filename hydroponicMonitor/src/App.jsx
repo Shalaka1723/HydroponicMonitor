@@ -22,6 +22,7 @@ const App = () => {
             <h1 className=" text-center text-sky-900 font-semibold text-3xl mt-2">
               Water Temperature
             </h1>
+            <div className="m-2 bg-pink-200">
             <LineChart
               xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}
               series={[
@@ -30,9 +31,10 @@ const App = () => {
                   area: true,
                 },
               ]}
-              width={500}
-              height={300}
-            />
+              width={400}
+              height={200}
+              />
+            </div>
           </div>
           <div className=" bg-sky-700 shadow-lg rounded-full w-96 h-96">
             <div className=" grid grid-cols-2 m-2 pl-5 pt-20 text-white text-center items-center justify-items-center  ">
